@@ -51,6 +51,6 @@ def main():
                                   'lrp_demo_cifar10.h5')
     model.save(model_filename)
 
-0
+
 if __name__ == "__main__":
     main()
