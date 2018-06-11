@@ -47,8 +47,7 @@ def main():
     print("acc:", acc)
 
     trained_models_dir = './models/'
-    model_filename = os.path.join(trained_models_dir,
-                                  'lrp_demo_cifar10.h5')
+    model_filename = os.path.join(trained_models_dir, 'lrp_demo_cifar10.h5')
     model.save(model_filename)
 
 
