@@ -124,7 +124,7 @@ def nonlayer(layer):
 
 def read_kerasmodel(model):
     """
-    keras modelを読み込んでLRPデモのモデルで返す
+    Return LRP module from keras model
     """
 
     lrpmodules = []
